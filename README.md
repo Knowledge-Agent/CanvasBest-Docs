@@ -2,7 +2,7 @@
 
 CanvasBest 是由 XGEN Labs 维护的 AI 原生视觉创作画布。它将提示词、参考素材、生成配置与创作结果组织在同一个连续工作流中，让每一次生成都成为下一步创作的起点。
 
-当前版本面向少量用户封闭内测，重点验证画布创作、文本与图片生成、资产沉淀、积分结算和刷新恢复。
+当前版本面向少量用户封闭内测，重点验证画布创作、托管文本、图片与视频生成、资产沉淀、积分结算和刷新恢复。
 
 [进入 CanvasBest 内测版本](https://best-aigc-canvas.vercel.app/) · [English overview](README.en.md) · [查看更新记录](CHANGELOG.md)
 
@@ -12,17 +12,18 @@ CanvasBest 是由 XGEN Labs 维护的 AI 原生视觉创作画布。它将提示
 2. [画布基础操作](docs/canvas.md)
 3. [文本生成](docs/text-generation.md)
 4. [图片生成与参考图](docs/image-generation.md)
-5. [我的资产与生成历史](docs/assets-and-history.md)
-6. [积分、失败与重试](docs/credits-and-retry.md)
-7. [本地数据与账号隔离](docs/local-data.md)
-8. [常见问题](docs/faq.md)
+5. [视频生成](docs/video-generation.md)
+6. [我的资产与生成历史](docs/assets-and-history.md)
+7. [积分、失败与重试](docs/credits-and-retry.md)
+8. [本地数据与账号隔离](docs/local-data.md)
+9. [常见问题](docs/faq.md)
 
 ## 当前内测范围
 
 - 支持管理员创建的账号登录，不开放自主注册。
-- 支持画布、文本生成、图片生成、参考图生成、资产和生成历史。
-- 画布与资产主要保存在当前浏览器中，不会自动同步到其他设备。
-- Agent、支付、云端画布同步以及视频音频托管暂不属于本轮内测范围。
+- 支持画布、托管文本生成、托管图片生成、托管视频生成、单张视频参考图、资产和生成历史。
+- 画布、资产和生成媒体主要保存在当前浏览器中，不会自动同步到其他设备。
+- Agent、支付、云端画布同步以及托管音频暂不属于本轮内测范围。
 
 ## 反馈问题
 
